@@ -1,12 +1,12 @@
 (* 
-   Avatarize - Auto Avatar Fetcher for macOS Mail
+   MailAvatarSync - Auto Avatar Fetcher for macOS Mail
    
    Installation:
-   Save this script as "Avatarize.scpt" to:
+   Save this script as "MailAvatarSync.scpt" to:
    ~/Library/Application Scripts/com.apple.mail/
    
    Usage:
-   Add a Rule in Mail.app -> "Run AppleScript" -> Select "Avatarize"
+   Add a Rule in Mail.app -> "Run AppleScript" -> Select "MailAvatarSync"
 *)
 
 using terms from application "Mail"
