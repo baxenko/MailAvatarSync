@@ -56,7 +56,7 @@ Move the downloaded script into this folder.
 1. Open **Mail app** → **Settings** → **Rules**.
 2. Click **Add Rule**.
 3. Set the condition: `[Every Message]` (or filter by specific accounts).
-4. Set the action: `[Run AppleScript]` and select `Avatarize` from the dropdown list.
+4. Set the action: `[Run AppleScript]` and select `MailAvatarSync` from the dropdown list.
 5. Click **OK**.
 
 ---
