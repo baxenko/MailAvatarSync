@@ -14,8 +14,15 @@
 
 ## 🖼 Before & After
 
-| ❌ Default Mail.app | ✅ With MailAvatarSync |
-<img width="1650" height="153" alt="screenshot_2025-11-26 at 16 06 22@2x" src="https://github.com/user-attachments/assets/1923a272-a21e-4d3e-9b77-cc632363e149" />
+❌ Default Mail.app
+
+<img width="799" height="153" alt="screenshot_2025-11-26 at 16 06 22@2x" src="https://github.com/user-attachments/assets/6ad5881c-6eba-4591-82e2-0643c36d99e7" />
+
+
+
+✅ With MailAvatarSync
+
+<img width="799" height="153" alt="screenshot_2025-11-27 at 16 06 22@2x" src="https://github.com/user-attachments/assets/afd67fbe-8f13-46e3-a577-dbc8a40435b3" />
 
 
 ---
@@ -39,4 +46,4 @@ Download the `MailAvatarSync` file from this repository.
 Open Finder, press `Cmd + Shift + G`, and paste this path:
 
 ```bash
-~/Library/Application Scripts/com.apple.mail<img width="2758" height="3404" alt="screenshot_2025-11-26 at 16 00 29@2x" src="https://github.com/user-attachments/assets/6ee6ff0a-e72a-4d67-b3d7-45d61d1744c2" />
+~/Library/Application Scripts/com.apple.mail
