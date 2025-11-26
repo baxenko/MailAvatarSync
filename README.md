@@ -47,3 +47,44 @@ Open Finder, press `Cmd + Shift + G`, and paste this path:
 
 ```bash
 ~/Library/Application Scripts/com.apple.mail
+```
+
+
+Move the downloaded script into this folder.
+
+### Step 3. Create a Mail Rule
+1. Open **Mail app** → **Settings** → **Rules**.
+2. Click **Add Rule**.
+3. Set the condition: `[Every Message]` (or filter by specific accounts).
+4. Set the action: `[Run AppleScript]` and select `Avatarize` from the dropdown list.
+5. Click **OK**.
+
+---
+
+## ⚙️ Requirements & Permissions
+
+*   **OS:** macOS Ventura, Sonoma, Sequoia (Tested).
+*   **Permissions:** Upon the first run, macOS will ask for permission to access "Contacts". Click **Allow**.
+
+> ⚠️ **Troubleshooting:** If the script doesn't work, check:
+> `System Settings` → `Privacy & Security` → `Automation` → Ensure **Mail** has access to **Contacts**.
+
+---
+
+## 🛠 How it works
+
+The script is written in pure AppleScript and uses standard macOS tools:
+1.  Extracts the sender's email and name.
+2.  Generates an MD5 hash to check Gravatar.
+3.  Parses the email domain to fetch logos via Clearbit/FaviconKit APIs.
+4.  Uses `curl` to download and `sips` to resize/convert images to PNG.
+5.  Updates the local Address Book via the Contacts API.
+
+---
+
+## 🤝 Contributing
+
+Feel free to submit Pull Requests if you know of better avatar sources or want to improve the logic!
+
+---
+*License: MIT*
